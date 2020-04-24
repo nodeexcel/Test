@@ -39,4 +39,4 @@ class Fruit extends FruitBasket {
     }
 }
 let FruitClass = new Fruit();
-console.log(FruitClass.Response());
+console.log(JSON.stringify(FruitClass.Response()));
